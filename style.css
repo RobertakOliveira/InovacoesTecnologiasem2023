@@ -1,0 +1,86 @@
+
+.container{
+   margin-top: 20%;
+}
+
+.containerFundo {
+   background-color: rgba(244, 232, 232, 0.4); /* Fundo branco transparente */
+   
+}
+.card {
+   border: 1px solid #ccc; /* Adiciona uma borda */
+   border-radius: 15px; /* Adiciona cantos arredondados */
+   overflow: hidden; /* Garante que a imagem não ultrapasse as bordas do card */
+   width: 350px;
+   text-align: center;
+}
+
+/* Estilo para as imagens dentro dos cards */
+.card img {
+   width: 350px; /* Faz a imagem ocupar 100% da largura do card */
+   height: auto; /* Garante que a altura seja ajustada proporcionalmente à largura */
+}
+
+.card img:hover{
+   width: 450px; /* Faz a imagem ocupar 100% da largura do card */
+   height: auto; /* Garante que a altura seja ajustada proporcionalmente à largura */
+}
+
+
+.card-title {
+   font-size: 1.5rem; /* Tamanho da fonte para o título */
+   font-family: cursive;
+   color: #333; /* Cor do texto */
+   margin-bottom: 10px; /* Exemplo de margem inferior para o título */
+}
+
+/* Estilos para o texto da card */
+.card-text {
+   font-size: 1rem; /* Tamanho da fonte para o texto */
+   font-family: 'Times New Roman', Times, serif;
+   color: #666; /* Cor do texto */
+   max-width: 18rem;
+}
+
+.form {
+   color: black;
+   background-color: rgba(244, 232, 232, 0.4); /* Fundo branco transparente */
+   padding: 20px;
+   border-style: groove; 
+   border-radius: 60px;
+   box-shadow: 0 0 70px black; /* Sombra leve */
+   width: 540px; /* Largura do formulário */
+   height: 500px;
+   margin: auto;
+  
+}
+
+.btn-primary {
+   border-radius: 10px;
+   width: 200px;
+   font-family: 'Times New Roman', Times, serif;
+   background-color: #333;
+   
+}
+
+.texto-form{
+   color: black;
+   font-size: 58px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+.text-body-secondary{
+   background-color: #666;
+}
+
+.navbar{
+   height: 60px;
+   font-family: cursive;
+   font-size: 25px;
+   padding: 10px;
+}
+
+
+
+
